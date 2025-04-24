@@ -1,0 +1,62 @@
+.dentist-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dentist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dentist-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  .dentist-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dentist-item {
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dentist-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .dentist-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .dentist-link:hover {
+    text-decoration: underline;
+  }
+  
