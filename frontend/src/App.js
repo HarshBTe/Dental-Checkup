@@ -19,6 +19,8 @@ function App() {
         <Route path="/dentists" element={<DentistList />} />
         <Route path="/checkups/request/:id" element={<CheckupRequest />} />
         <Route path="/checkups/results" element={<CheckupResults />} />
+       <Route path="/" element={<Login />} />
+        
         
       </Routes>
     </Router>
